@@ -1,0 +1,24 @@
+@use "../base/devices";
+
+@media #{devices.$tablet}, #{devices.$smartphone} {
+  .l-container {
+    flex-direction: column;
+    gap: 7rem;
+    padding: 8rem 0;
+  }
+
+  .c-section {
+    max-width: 47ch;
+    text-align: center;
+  }
+
+  .c-illustration-background {
+    &-top {
+      transform: translate(-60%, -25%);
+    }
+
+    &-bottom {
+      transform: translate(60%, 25%);
+    }
+  }
+}

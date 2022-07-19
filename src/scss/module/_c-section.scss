@@ -1,0 +1,21 @@
+@use "../base/extends";
+@use "../base/colors";
+@use "../base/functions";
+
+.c-section {
+  @extend %u-display-flex, %u-direction-column;
+  gap: 2rem;
+
+  width: 70ch;
+
+  &__title {
+    color: colors.$very-dark-desaturated-violet;
+    font-size: functions.fluid-size(38, 40, 375, 1400);
+  }
+
+  &__text {
+    color: colors.$grayish-blue;
+    font-size: functions.fluid-size(15, 16, 375, 1400);
+    line-height: 2.5rem;
+  }
+}

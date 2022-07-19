@@ -1,0 +1,7 @@
+@use "../base/extends";
+
+.l-main {
+  @extend %u-display-flex, %u-justify-center, %u-align-center;
+  min-width: 100vw;
+  min-height: 100vh;
+}

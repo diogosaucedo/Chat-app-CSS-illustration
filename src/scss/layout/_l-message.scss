@@ -1,0 +1,19 @@
+@use "../base/extends";
+@use "../base/colors";
+
+.l-message {
+  @extend %u-display-flex, %u-direction-column;
+  gap: 1.8rem;
+
+  width: 100%;
+  padding: 0.6rem;
+
+  background-color: colors.$light-grayish-violet;
+  font-size: 0.9rem;
+  border-radius: 0 0 2rem 2rem;
+
+  // Child components
+  .c-photos {
+    align-self: end;
+  }
+}

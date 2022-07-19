@@ -1,0 +1,27 @@
+@use "../base/extends";
+@use "../base/colors";
+
+.c-profile {
+  @extend %u-display-flex, %u-align-center;
+  gap: 0.6rem;
+
+  &__picture {
+    width: 2.5rem;
+    border-radius: 50%;
+    border: 0.1rem solid colors.$white;
+  }
+
+  &__user {
+    @extend %u-display-flex, %u-direction-column;
+    gap: 0.2rem;
+  }
+
+  &__name {
+    font-size: 1rem;
+  }
+
+  &__status {
+    font-size: 0.9rem;
+    color: darken(colors.$white, 20%);
+  }
+}

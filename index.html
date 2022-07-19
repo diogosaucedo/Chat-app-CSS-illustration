@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- About the project -->
+    <title>Chat app CSS illustration</title>
+    <meta name="author" content="Diogo F. Saucedo" />
+    <meta
+      name="description"
+      content="Frontend Mentor's “Chat app CSS illustration” challenge."
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/main.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Illustration background -->
+
+    <main class="l-main">
+      <div
+        class="c-illustration-background c-illustration-background-top"
+      ></div>
+      <div class="l-container">
+        <div class="l-container__left">
+          <div class="c-smartphone">
+            <div class="c-smartphone__notch"></div>
+            <div class="c-app-chat">
+              <div class="c-app-chat__nav-bar">
+                <div class="c-app-chat__bar-content">
+                  <div class="c-profile">
+                    <i class="fa-solid fa-angle-left c-arrow"></i>
+                    <img
+                      src="./assets/images/avatar.jpg"
+                      alt="Profile picture"
+                      class="c-profile__picture"
+                    />
+                    <div class="c-profile__user">
+                      <p class="c-profile__name">Samuel Green</p>
+                      <p class="c-profile__status">Available to Walk</p>
+                    </div>
+                  </div>
+                  <ul class="c-app-chat__menu">
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="l-message">
+                <div class="c-message__group-message">
+                  <p class="c-message__received">
+                    That sounds great. I’d be happy with that.
+                  </p>
+                  <p class="c-message__received">
+                    Could you send over some pictures of your dog, please?
+                  </p>
+                </div>
+                <div class="c-message__group-message">
+                  <div class="c-photos">
+                    <img
+                      src="./assets/images/dog-image-1.jpg"
+                      alt="Dog image"
+                      class="c-photos__image"
+                    />
+                    <img
+                      src="./assets/images/dog-image-2.jpg"
+                      alt="Dog image"
+                      class="c-photos__image"
+                    />
+                    <img
+                      src="./assets/images/dog-image-3.jpg"
+                      alt="Dog image"
+                      class="c-photos__image"
+                    />
+                  </div>
+                  <p class="c-message__sent">
+                    Here are a few pictures. She’s a happy girl!
+                  </p>
+                  <p class="c-message__sent">Can you make it?</p>
+                </div>
+                <div class="c-message__group-message">
+                  <p class="c-message__received">
+                    She looks so happy! The time we discussed works. How long
+                    shall I take her out for?
+                  </p>
+                  <div class="c-message__service">
+                    <div class="c-message__description">
+                      <div class="c-message__cicle"></div>
+                      <p class="c-message__option">30 minute walk</p>
+                    </div>
+                    <strong class="c-message__price">$29</strong>
+                  </div>
+                  <div class="c-message__service">
+                    <div class="c-message__description">
+                      <div class="c-message__cicle"></div>
+                      <p class="c-message__option">1 hour walk</p>
+                    </div>
+                    <strong class="c-message__price">$49</strong>
+                  </div>
+                </div>
+                <form class="c-text-box" method="post" action="#">
+                  <input
+                    type="text"
+                    title="Text box to send messages"
+                    placeholder="Type a message…"
+                    class="c-text-box__input"
+                  />
+                  <a href="#" class="c-text-box__button">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="l-container__right">
+          <section class="c-section">
+            <h1 class="c-section__title">Simple booking</h1>
+            <p class="c-section__text">
+              Stay in touch with our dog walkers through the chat interface.
+              This makes it easy to discuss arrangements and make bookings. Once
+              the walk has been completed you can rate your walker and book
+              again all through the chat.
+            </p>
+          </section>
+        </div>
+      </div>
+      <div
+        class="c-illustration-background c-illustration-background-bottom"
+      ></div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/3698974dd8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
